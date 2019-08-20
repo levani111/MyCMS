@@ -1,0 +1,16 @@
+{
+    "name": "user/mycms",
+    "authors": [
+        {
+            "name": "User",
+            "email": "levan.javakhishvili.1@btu.edu.ge"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Engine\\": "engine",
+            "Engine\\DI\\": "engine/DI"
+        }
+    }
+}
